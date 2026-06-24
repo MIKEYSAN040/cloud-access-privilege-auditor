@@ -21,6 +21,17 @@ Built as a practical alternative to manual IAM reviews.
 ![Dashboard](Dashboard.png)
 
 
+## Project Structure
+
+```
+cloud-access-auditor/
+├── auditor.py            # IAM scanner and risk classification
+├── app.py                # Flask dashboard
+├── requirements.txt      # Dependencies
+└── templates/
+    └── dashboard.html    # Dashboard UI
+```
+
 
 ## Stack
 
@@ -86,4 +97,14 @@ This tool simulates a real organizational IAM audit scenario with:
 
 ---
 
+## Security Practices
+
+All AWS credentials are managed exclusively through the AWS CLI 
+(`aws configure`) and never hardcoded in source code. The tool 
+operates under an IAM user with scoped, least-privilege permissions 
+— access limited strictly to what the auditor requires and nothing 
+beyond that.
+
+Credentials follow the same Zero Trust principle the tool enforces: 
+minimum access, no standing privileges, rotated after use.
 
