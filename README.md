@@ -86,11 +86,4 @@ This tool simulates a real organizational IAM audit scenario with:
 
 ---
 
-##  Author
 
-**Your Name**  
-MCA Student — Bapuji Institute of Engineering & Technology  
-Cybersecurity | SOC Analyst | Cloud Security  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](your-linkedin-url)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](your-github-url)
