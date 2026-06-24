@@ -18,7 +18,7 @@ Built as a practical alternative to manual IAM reviews.
 
 ## Dashboard
 
-![Dashboard](aae.png)
+![Dashboard](Dashboard.png)
 
 
 
